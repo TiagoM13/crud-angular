@@ -20,6 +20,10 @@ import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 
+// directives
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,9 @@ import { MatCardModule } from '@angular/material/card';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
