@@ -16,6 +16,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 // Views
 import { HomeComponent } from './views/home/home.component';
@@ -53,6 +54,7 @@ registerLocaleData(localePT)
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,
