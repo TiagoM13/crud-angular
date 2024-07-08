@@ -1,27 +1,19 @@
-# Frontend
+## Projeto Angular CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
+ Este é um projeto de exemplo que implementa um sistema de CRUD (Create, Read, Update, Delete) utilizando o framework Angular. O objetivo deste projeto é demonstrar a criação de uma aplicação web que permite a manipulação de dados de uma maneira eficiente e escalável.
 
-## Development server
+### Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Criação: Adicione novos registros no banco de dados.
+- Leitura: Visualize e pesquise registros existentes.
+- Atualização: Edite informações de registros existentes.
+- Exclusão: Remova registros do banco de dados.
 
-## Code scaffolding
+### Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular: Framework front-end utilizado para a construção da interface do usuário.
+- TypeScript: Linguagem de programação utilizada no desenvolvimento do projeto.
+- HTML/CSS: Tecnologias usadas para a estruturação e estilização da aplicação.
+- Angular Material: Biblioteca de componentes para a criação de uma interface de usuário moderna e responsiva.
+- JSON Server: Servidor de API falso para simular operações de CRUD com dados persistentes.
+  
